@@ -52,7 +52,6 @@ header h1 {
 .main-grid {
     width: 600px;
     height: 600px;
-    border: 1px solid black;
     flex-wrap: wrap;
 }
 
@@ -64,4 +63,8 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.square.clicked {
+    background-color: lightgreen;
 }
