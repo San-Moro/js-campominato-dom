@@ -69,3 +69,16 @@ function clickSquare() {
     this.classList.add("clicked");
     console.log(this.textContent);
 }
+
+/** SVOLGIMENTO parte 2
+ * Aggiungere l'array bombs => di 16 numeri creati casualmente in un range da 1 a 100 - Attenta! non ci devono essere doppioni
+ * Aggiungere l'array noBombs => 100-16 => contatore dei n. cliccati che non sono bombe => Punteggio
+ * Al click sullo square
+ *  controllare se il numero dello square cliccato è incluso nell'array bombs
+ *      SE true => l'utente ha perso
+ *          mostrare tutti gli square bombe e il punteggio
+ *      ELSE SE false => controllare se ha cliccato tutti i numeri inclusi nell'array noBombs
+ *          SE true => ha vinto
+ *          ELSE 
+ *          può continuare a giocare
+*/
