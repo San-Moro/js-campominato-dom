@@ -47,7 +47,7 @@ header h1 {
 .container {
     width: 100%;
     min-height: 700px;
-    background-color: aquamarine;
+    background-color: #6ed663;
 }
 .main-grid {
     width: 600px;
@@ -66,5 +66,9 @@ header h1 {
 }
 
 .square.clicked {
-    background-color: lightgreen;
+    background-color: #3eb489;
+}
+
+.square.bomb {
+    background-color: #ef5b5b;
 }
